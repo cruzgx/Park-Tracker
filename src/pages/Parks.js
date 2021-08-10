@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
@@ -39,7 +40,7 @@ const Parks = () => {
                     A park located at the most bottom part of Manhattan.
                     Enjoy views of the water and the Statue of Liberty
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button variant="primary"><Link to="/battery-park">Find out more</Link></Button>
                 </Card.Body>
               </Card>
             </Col>

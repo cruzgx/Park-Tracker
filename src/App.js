@@ -8,6 +8,7 @@ import About from './pages/About';
 import { Layout } from './components/Layout.js';
 import { NavigationBar } from './components/NavigationBar.js';
 import Parks from './pages/Parks';
+import Battery from './pages/indiv_park_pages/Battery';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Layout>
         <Router>
           <Switch>
-            <Route path='/' exact component={Home} />
-            <Route path='/about' exact component={About} />
-            <Route path='/parks' exact component={Parks} />
+            <Route path='/' exact component = {Home} />
+            <Route path='/about' exact component = {About} />
+            <Route path='/parks' exact component = {Parks} />
+            <Route path='/battery-park' exact component = {Battery} />
           </Switch>
         </Router>
       </Layout>
